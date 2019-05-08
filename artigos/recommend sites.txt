@@ -1,0 +1,6 @@
+
+RF INTRODUCTION: 	https://www.allaboutcircuits.com/textbook/radio-frequency-analysis-design/
+DDC IMPLEMENTATION:	http://hunteng.co.uk/support/ddc.htm
+
+
+
