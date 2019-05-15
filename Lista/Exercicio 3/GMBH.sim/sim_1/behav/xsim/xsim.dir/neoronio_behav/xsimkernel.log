@@ -1,0 +1,4 @@
+Running: xsim.dir/neoronio_behav/xsimk.exe -simmode gui -wdb neoronio_behav.wdb -simrunnum 0 -socket 53144
+Design successfully loaded
+Design Loading Memory Usage: 6804 KB (Peak: 6804 KB)
+Design Loading CPU Usage: 93 ms

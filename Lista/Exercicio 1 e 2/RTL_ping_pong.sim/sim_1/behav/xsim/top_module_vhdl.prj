@@ -1,0 +1,9 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../RTL_ping_pong.srcs/sources_1/imports/new/clk_div.vhd" \
+"../../../../RTL_ping_pong.srcs/sources_1/imports/new/decoder.vhd" \
+"../../../../RTL_ping_pong.srcs/sources_1/new/score_controller.vhd" \
+"../../../../RTL_ping_pong.srcs/sources_1/new/top_module.vhd" \
+
+# Do not sort compile order
+nosort

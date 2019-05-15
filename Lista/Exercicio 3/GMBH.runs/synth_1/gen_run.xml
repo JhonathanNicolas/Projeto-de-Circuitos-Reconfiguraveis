@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xa7a35tcpg236-1I" LaunchTime="1557888281">
+  <File Type="PA-TCL" Name="neoronio.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="neoronio_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="neoronio_reports.tcl"/>
+  <File Type="RDS-RDS" Name="neoronio.vds"/>
+  <File Type="RDS-UTIL" Name="neoronio_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="neoronio_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="neoronio.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="neoronio_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="neoronio_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/operadorFloatingPoint/multiplierfsm_v2.dcp">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Documents/GitHub/Circuitos_Reconfiguraveis/operadorFloatingPoint/multiplierfsm_v2.dcp"/>
+        <Attr Name="ImportTime" Val="1556020615"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/operadorFloatingPoint/addsubfsm_v6.dcp">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Documents/GitHub/Circuitos_Reconfiguraveis/operadorFloatingPoint/addsubfsm_v6.dcp"/>
+        <Attr Name="ImportTime" Val="1556020615"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/operadorFloatingPoint/fpupack.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Documents/GitHub/Circuitos_Reconfiguraveis/operadorFloatingPoint/fpupack.vhd"/>
+        <Attr Name="ImportTime" Val="1556020615"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/operadorFloatingPoint/addsubfsm_v6.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Documents/GitHub/Circuitos_Reconfiguraveis/operadorFloatingPoint/addsubfsm_v6.vhd"/>
+        <Attr Name="ImportTime" Val="1556020615"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/operadorFloatingPoint/entities.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Documents/GitHub/Circuitos_Reconfiguraveis/operadorFloatingPoint/entities.vhd"/>
+        <Attr Name="ImportTime" Val="1556020615"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/operadorFloatingPoint/multiplierfsm_v2.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Documents/GitHub/Circuitos_Reconfiguraveis/operadorFloatingPoint/multiplierfsm_v2.vhd"/>
+        <Attr Name="ImportTime" Val="1556020615"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/neoronio.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/operadorFloatingPoint/fixMul.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Documents/GitHub/Circuitos_Reconfiguraveis/operadorFloatingPoint/fixMul.vhd"/>
+        <Attr Name="ImportTime" Val="1556020615"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="neoronio"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/ping_pong/basys3.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../RTL_ping_pong/RTL_ping_pong.srcs/constrs_1/imports/ping_pong/basys3.xdc"/>
+        <Attr Name="ImportTime" Val="1553738080"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2017"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

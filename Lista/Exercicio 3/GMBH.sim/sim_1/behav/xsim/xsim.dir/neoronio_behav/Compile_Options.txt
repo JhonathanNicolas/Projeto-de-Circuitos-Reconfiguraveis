@@ -1,0 +1,1 @@
+-wto "138703a6d8634de996be6527ac4ea749" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "neoronio_behav" "xil_defaultlib.neoronio" -log "elaborate.log" 
